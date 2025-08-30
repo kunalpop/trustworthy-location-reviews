@@ -44,7 +44,7 @@ The system processes review data with the following structure:
 
 ### 3. Text Classification
 - **Ensemble Learning**: Random Forest with multi-output classification
-- **Feature Engineering**: TF-IDF vectorization with n-grams
+- **Feature Engineering**: Text normalized - lowercase, word segmentation, special character removal. 
 - **Balanced Splitting**: Iterative stratification for multi-label data
 - **Evaluation Metrics**: Precision, recall, and F1-score per class
 
@@ -60,10 +60,8 @@ pip install torch pandas numpy transformers sentence-transformers
 pip install scikit-learn scikit-multilearn
 ```
 
-## Usage
-
-### Basic Classification Pipeline
-
-```python
-import pandas as pd
-from trustworthy_reviews import tag_location, tag_spam_adv_irrel_rant, train_and_test_ensemble
+## Files
+input: "reviews.csv"
+output: "data.csv"
+policies: "policies.json"
+output with policy: "data_w_policy.csv"

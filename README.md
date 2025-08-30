@@ -61,7 +61,7 @@ pip install scikit-learn scikit-multilearn
 ```
 
 ## Files
-input: "reviews.csv"
-output: "data.csv"
-policies: "policies.json"
-output with policy: "data_w_policy.csv"
+- input: "reviews.csv"
+- output: "data.csv"
+- policies: "policies.json"
+- output with policy: "data_w_policy.csv"

@@ -1,0 +1,23 @@
+[
+    {
+        "policy_type": "No Advertisement",
+        "policy_description": "Reviews should not contain promotional content or links.",
+        "advertisement": 1,
+        "irrelevant": 0,
+        "rant": 0
+    },
+    {
+        "policy_type": "No Irrelevant Content",
+        "policy_description": "Reviews must be about the location, not unrelated topics.",
+        "advertisement": 0,
+        "irrelevant": 1,
+        "rant": 0
+    },
+    {
+        "policy_type": "No Rant Without Visit",
+        "policy_description": "Rants/complaints must come from actual visitors (inferred via content/metadata).",
+        "advertisement": 0,
+        "irrelevant": 0,
+        "rant": 1
+    }
+]
